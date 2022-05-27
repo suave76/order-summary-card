@@ -1,0 +1,96 @@
+:root {
+    --Pure-white: hsl(0, 0%, 100%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    --Drop-shadow: hsla(245, 75%, 52%, 30%);
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* padding: 10rem 15rem; */
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:var(--Pale-blue);
+    color: var(--Desaturated-blue);
+}
+
+/* #### Main Card ##### */
+.Card{
+    background-color:var(--Pure-white);
+    box-sizing: border-box;
+    width: 28rem;
+    overflow: hidden;
+    box-shadow: 0 10px 20px var(--Drop-shadow);
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2{
+    color: var(--Dark-blue);
+}
+
+
+/* #### Annual Plan Section ##### */
+.plan{
+    background-color: var(--Very-pale-blue);
+}
+.plan-change{
+    color: var(--Bright-blue);
+    text-decoration: underline;
+}
+
+.plan-change:hover{
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+}
+
+
+/* #### CTA Section ##### */
+.CTA button{
+    background-color: var(--Bright-blue);
+    color:var(--Pure-white);
+    box-shadow: 0 10px 20px var(--Drop-shadow);
+}
+
+.CTA button:hover{
+    background-color: var(--Desaturated-blue);
+}
+
+.CTA a{
+    color: var(--Desaturated-blue);
+}
+
+.CTA a:hover{
+    color: var(--Dark-blue);
+}
+
+
+/* #### Attribution ##### */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a:hover{
+    color: var(--Bright-blue);
+}
+
+
+/* --------------------- Media Queries ----------------------- */
+@media(max-width: 500px){
+    .Card{
+        width: 24rem;
+    }
+}
+@media(max-width: 425px){
+    .Card{
+        width: 22rem;
+    }
+}

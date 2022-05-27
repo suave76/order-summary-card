@@ -1,0 +1,160 @@
+/* ### fonts  */
+.font-small {
+    font-size: 0.75rem;
+}
+
+.font-medium {
+    font-size: 1rem;
+}
+
+.font-large {
+    font-size: 1.5rem;
+}
+
+.font-bold{
+    font-weight: 900;
+}
+
+.font-semi-bold{
+    font-weight: 700;
+}
+
+.font-light{
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ### border radius  */
+.border-radiua-8px{
+    border-radius:0.5rem;
+}
+
+.border-radiua-12px{
+    border-radius:0.75rem;
+}
+
+.border-radiua-16px{
+    border-radius:1rem;
+}
+
+
+/* ### paddings  */
+.padding-all-8px {
+    padding: 0.5rem;
+}
+
+.padding-all-16px {
+    padding: 1rem;
+}
+
+.padding-all-48px {
+    padding: 2rem;
+}
+
+.padding-top-bottom-8px {
+    padding: 0.5rem 0;
+}
+
+.padding-top-bottom-16px {
+    padding: 1rem 0;
+}
+
+
+/* ### margins  */
+.mg-top-bottom-8px{
+    margin: 0.5rem 0;
+}
+
+.mg-top-bottom-16px{
+    margin: 1rem 0;
+}
+
+.mg-top-bottom-20px{
+    margin: 1.25rem 0;
+}
+
+.mg-top-bottom-24px{
+    margin: 1.5rem 0;
+}
+
+.mg-sides-8px{
+    margin: 0 0.5rem;
+}
+
+.mg-sides-16px{
+    margin: 0 1rem;
+}
+
+.mg-left-auto{
+    margin-left: auto;
+}
+
+
+
+/* ### flex  */
+.d-flex {
+    display: flex;
+}
+
+.d-flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+
+/* ### button  */
+.btn{
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.btn-large{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+/* .relative {
+
+}
+
+.absolute {
+
+}
+
+.fixed {
+
+}
+
+.sticky {
+
+}
+
+.top-0{
+
+} */
+
