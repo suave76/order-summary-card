@@ -59,7 +59,7 @@ Also this project made me realise how help is semantic html and how to make a li
 ## Author
 
 - Frontend Mentor - [suave76](https://www.frontendmentor.io/profile/suave76)
-- LinkedIn - [Suave-Thapa]https://www.linkedin.com/in/suave-thapa-857447190/
+- LinkedIn - [Suave-Thapa](https://www.linkedin.com/in/suave-thapa-857447190/)
 
 ## Acknowledgments
 
