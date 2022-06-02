@@ -23,7 +23,7 @@ body{
 }
 
 /* #### Main Card ##### */
-.Card{
+.card{
     background-color:var(--Pure-white);
     box-sizing: border-box;
     width: 28rem;
@@ -56,21 +56,21 @@ h1,h2{
 
 
 /* #### CTA Section ##### */
-.CTA button{
+.cta button{
     background-color: var(--Bright-blue);
     color:var(--Pure-white);
     box-shadow: 0 10px 20px var(--Drop-shadow);
 }
 
-.CTA button:hover{
+.cta button:hover{
     background-color: var(--Desaturated-blue);
 }
 
-.CTA a{
+.cta a{
     color: var(--Desaturated-blue);
 }
 
-.CTA a:hover{
+.cta a:hover{
     color: var(--Dark-blue);
 }
 
@@ -84,13 +84,13 @@ h1,h2{
 
 
 /* --------------------- Media Queries ----------------------- */
-@media(max-width: 500px){
-    .Card{
+@media(max-width: 31.25em){
+    .card{
         width: 24rem;
     }
 }
-@media(max-width: 425px){
-    .Card{
+@media(max-width: 26.5625em){
+    .card{
         width: 22rem;
     }
 }
