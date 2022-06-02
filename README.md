@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://your-solution-url.com)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/suave76/order-summary-card)
+- Live Site URL: [live site](https://suave76.github.io/order-summary-card/)
 
 
 ### Built with
